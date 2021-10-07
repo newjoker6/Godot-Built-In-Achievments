@@ -36,5 +36,3 @@ func achievement_unlock(id: String):
 	$Achievement/AchievementInfo/AchievementDesc.text = AchievementList[id]["Description"]
 	AchievementList[id]["Unlocked"] = true
 
-func _ready():
-	print(AchievementList["000"]["Title"])
