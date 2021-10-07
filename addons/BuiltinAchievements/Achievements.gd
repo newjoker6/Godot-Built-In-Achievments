@@ -1,5 +1,5 @@
 tool
-extends Control
+extends EditorPlugin
 
 
 class_name Achievements, "res://addons/BuiltinAchievements/AchievementIcon.svg"
